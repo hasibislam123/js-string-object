@@ -22,4 +22,10 @@ else {
 
 
 const drink = 'water' ;
-console.log(drink);
+const liquid = ' water ' 
+if (drink.trim === liquid.trim){
+    console.log('pani ar opor name life');
+}
+else {
+    console.log('somudrer pani ase khaite pari na ');
+}
