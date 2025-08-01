@@ -1,10 +1,4 @@
-const person = {
-    name: "Jahid uddin" ,
-    age: 26 ,
-    profession: 'developer',
-    salary: 25000,
-    married: true 
-}
+
 // console.log(person);
 
 // dot notetion
@@ -18,3 +12,7 @@ const income =  person.salary;
 console.log(person['age'])
 const boyos = person ['age']
 console.log(boyos);
+
+// error
+// consol.log(person.'fav places')
+console.log(person['fav places'])
